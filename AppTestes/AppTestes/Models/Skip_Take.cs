@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace AppTestes.SKIP_TAKE
+namespace AppTestes.Models
 {
     public class Skip_Take
     {

@@ -1,5 +1,6 @@
-﻿using AppTestes.SKIP_TAKE;
+﻿using AppTestes.Models;
 using System;
+using System.Threading.Tasks;
 
 namespace AppTestes
 {
@@ -7,11 +8,16 @@ namespace AppTestes
     {
         static void Main(string[] args)
         {
-            Execute();
+            //Task.Run(async () =>
+            //{
+            //   await Execute();
+            //});
+            var deb = new Debugar();
+            
             Console.ReadLine();
         }
 
-        private static async void Execute()
+        private static async Task Execute()
         {
             var resultado = await Skip_Take.GetSkip();
 
