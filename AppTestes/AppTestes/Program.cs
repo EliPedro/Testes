@@ -10,10 +10,19 @@ namespace AppTestes
         {
             //Task.Run(async () =>
             //{
-            //   await Execute();
+            //    await Execute();
             //});
-            var deb = new Debugar();
-            
+            //var deb = new Debugar();
+
+            //Task.Run(async () =>
+            //{
+            //    Console.WriteLine("Inicio de envio de emails.");
+            //    await Tarefa.EnviarEmailAsync();
+            //    Tarefa.EnviarEmail();
+
+            //    Console.WriteLine("Fim de execução.");
+            //}).Wait();
+
             Console.ReadLine();
         }
 
