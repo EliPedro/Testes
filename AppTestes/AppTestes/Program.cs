@@ -25,7 +25,12 @@ namespace AppTestes
             //    Console.WriteLine("Fim de execução.");
             //}).Wait();
 
-            ReflectionTest();
+            //ReflectionTest();
+
+            //DefinirValor();
+
+
+            Metodos();
 
             Console.ReadLine();
         }
@@ -42,6 +47,36 @@ namespace AppTestes
             foreach(var param in parametros)
             {
                 info.Invoke(null, new object[] { param });
+            }
+
+        }
+
+
+        static void DefinirValor()
+        {
+            FieldInfo info = typeof(Methods).GetField("_variavel");
+
+            info.SetValue(null, 10);
+
+
+            Console.WriteLine(Methods.ObterValor());
+        }
+
+        static void Metodos()
+        {
+            var metodo = new Methods();
+
+
+            MethodInfo[] methods = typeof(Methods).GetMethods();
+
+            foreach(var info in methods)
+            {
+                Console.WriteLine(info.Name);
+
+                if(info.Name == "Mensagem")
+                {
+                    info.Invoke(metodo, null);
+                }
             }
 
         }
