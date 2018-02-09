@@ -9,10 +9,12 @@ namespace AppTestes.Models
         public Debugar()
         {
             this.Teste();
-            this.Teste2();
+    
 
             #if DEBUG
                  Teste3();
+            #else
+                Teste2();
             #endif
 
         }

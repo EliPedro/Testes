@@ -1,5 +1,6 @@
 ﻿using AppTestes.Models;
 using System;
+using System.Reflection;
 using System.Threading.Tasks;
 
 namespace AppTestes
@@ -12,6 +13,7 @@ namespace AppTestes
             //{
             //    await Execute();
             //});
+
             //var deb = new Debugar();
 
             //Task.Run(async () =>
@@ -23,7 +25,25 @@ namespace AppTestes
             //    Console.WriteLine("Fim de execução.");
             //}).Wait();
 
+            ReflectionTest();
+
             Console.ReadLine();
+        }
+
+       static void ReflectionTest()
+       {
+            var metodo = "Executar";
+
+            var parametros = new string[]{ "Laranja", "Maça", "Banana" };
+
+            Type type = typeof(Methods);
+            MethodInfo info = type.GetMethod(metodo);
+            
+            foreach(var param in parametros)
+            {
+                info.Invoke(null, new object[] { param });
+            }
+
         }
 
         private static async Task Execute()
