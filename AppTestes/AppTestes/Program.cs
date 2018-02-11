@@ -9,6 +9,7 @@ namespace AppTestes
     {
         static void Main(string[] args)
         {
+
             //Task.Run(async () =>
             //{
             //    await Execute();

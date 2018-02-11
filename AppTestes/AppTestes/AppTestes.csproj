@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Models\Debugar.cs" />
     <Compile Include="Models\Methods.cs" />
+    <Compile Include="Models\SomeData.cs" />
     <Compile Include="Models\Tarefa.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
