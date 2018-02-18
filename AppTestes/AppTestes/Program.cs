@@ -2,6 +2,7 @@
 using System;
 using System.Reflection;
 using System.Threading.Tasks;
+using static AppTestes.Models.Enumerador;
 
 namespace AppTestes
 {
@@ -10,6 +11,12 @@ namespace AppTestes
         static void Main(string[] args)
         {
 
+            //var user = new User().CompareTo(new object());
+
+            new TesteLeituraSQL().TesteSqlBulkCopy();
+
+            //Formatacao.DisplayTemperature(DateTime.Now, 2345);
+            //TesteXML.Xml();
             //Task.Run(async () =>
             //{
             //    await Execute();
@@ -31,7 +38,7 @@ namespace AppTestes
             //DefinirValor();
 
 
-            Metodos();
+            //Metodos();
 
             Console.ReadLine();
         }

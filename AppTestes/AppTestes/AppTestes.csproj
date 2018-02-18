@@ -43,8 +43,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\Debugar.cs" />
+    <Compile Include="Models\Enumerador.cs" />
+    <Compile Include="Models\Formatacao.cs" />
     <Compile Include="Models\Methods.cs" />
-    <Compile Include="Models\SomeData.cs" />
+    <Compile Include="Models\TesteLeituraSQL.cs" />
+    <Compile Include="Models\TesteXML.cs" />
+    <Compile Include="Models\YieldData.cs" />
     <Compile Include="Models\Tarefa.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
