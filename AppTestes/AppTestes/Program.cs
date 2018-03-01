@@ -12,9 +12,7 @@ namespace AppTestes
         {
 
             //var user = new User().CompareTo(new object());
-
-            new TesteLeituraSQL().TesteSqlBulkCopy();
-
+            //new TesteLeituraSQL().TesteSqlBulkCopy();
             //Formatacao.DisplayTemperature(DateTime.Now, 2345);
             //TesteXML.Xml();
             //Task.Run(async () =>
@@ -36,9 +34,9 @@ namespace AppTestes
             //ReflectionTest();
 
             //DefinirValor();
-
-
             //Metodos();
+
+            Delegates.Testar();
 
             Console.ReadLine();
         }

@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\Debugar.cs" />
+    <Compile Include="Models\Delegates.cs" />
     <Compile Include="Models\Enumerador.cs" />
     <Compile Include="Models\Formatacao.cs" />
     <Compile Include="Models\Methods.cs" />
