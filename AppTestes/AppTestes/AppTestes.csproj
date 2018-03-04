@@ -47,6 +47,7 @@
     <Compile Include="Models\Enumerador.cs" />
     <Compile Include="Models\Formatacao.cs" />
     <Compile Include="Models\Merge1.cs" />
+    <Compile Include="Models\Merge2.cs" />
     <Compile Include="Models\Methods.cs" />
     <Compile Include="Models\TesteLeituraSQL.cs" />
     <Compile Include="Models\TesteXML.cs" />
