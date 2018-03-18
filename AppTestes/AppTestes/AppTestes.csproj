@@ -42,7 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\Class1.cs" />
     <Compile Include="Models\Debugar.cs" />
     <Compile Include="Models\Delegates.cs" />
     <Compile Include="Models\Enumerador.cs" />
